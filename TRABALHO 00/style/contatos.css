@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+
+.body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.info-contatos {
+    display: inline-flex;
+    width: 100%;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.info-contatos {
+    background-color: #44444470;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.info-contatos h2 {
+    font-size: 24px;
+    color: rgb(71, 69, 69);
+    margin-bottom: 10px;
+}
+
+.info-contatos ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#email, #telefone, #endereco, #instagram, #facebook {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0px;
+    justify-content: left;
+}
+
+#endereco {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#endereco br {
+    display: none;
+}
+
+#endereco br {
+    display: inline;
+}
+
+.voltar_ini {
+    background-color: #f0f0f0;
+    display: inline-flex;
+    width: 100%;
+    align-items: left;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+}
+
+#link_home {
+    color: #000000;
+    font-weight: 1000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    align-self: center;
+    float: left;
+}
+
+.rodape {
+    background-color: #44444470;
+    display: inline-flex;
+    text-decoration: none;
+    width: 100%;
+    justify-content: left;
+    align-items: left;
+    height: 120px;
+    bottom: 0;
+    left: 0;
+}
+
+.info-contatos img {
+    width: 55px;
+    height: 55px;
+}
